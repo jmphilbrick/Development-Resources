@@ -1,0 +1,17 @@
+Favorite git aliases
+
+st=status
+co=checkout
+hist=log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+graph=log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+br=branch
+c=commit
+a=add
+unstage=reset HEAD
+la=!git config -l | grep alias | cut -c 7-
+grep=grep -Ii
+sl=stash list
+sa=stash apply
+ss=stash save
+dw=diff -w
+sp=stash pop
