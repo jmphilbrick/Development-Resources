@@ -13,5 +13,7 @@ grep=grep -Ii
 sl=stash list
 sa=stash apply
 ss=stash save
-dw=diff -w
 sp=stash pop
+sc=stash clear
+dw=diff -w
+
